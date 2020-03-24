@@ -13,7 +13,6 @@ const CollectionPreview = ({ title, items }) => {
 					return <CollectionItem key={id} {...otherProps} />;
 				})}
 			</div>
-			;
 		</div>
 	);
 };
