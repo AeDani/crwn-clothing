@@ -5,7 +5,7 @@ import './signinandup.styles.scss';
 
 const SignInAndUpPage = () => {
 	return (
-		<div className="sign-in">
+		<div>
 			<SignIn />
 		</div>
 	);
