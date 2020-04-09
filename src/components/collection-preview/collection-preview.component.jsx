@@ -9,8 +9,8 @@ const CollectionPreview = ({ title, items }) => {
 		<div className="collection-preview">
 			<h1 className="title">{title}</h1>
 			<div className="preview">
-				{items.slice(0, 4).map(({ id, ...otherProps }) => {
-					return <CollectionItem key={id} {...otherProps} />;
+				{items.slice(0, 4).map((item) => {
+					return <CollectionItem key={item.id} item={item} />;
 				})}
 			</div>
 		</div>
